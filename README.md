@@ -6,7 +6,7 @@ AMP Tube—A simple YouTube search engine and viewer app, implemented in AMP.
 
 ## 😲 Demo
 
-See the app in action at https://tomayac.github.io/amp-tube/index.html.
+See the app in action at https://tomayac.github.io/amp-tube/.
 
 ## 💼 License
 
