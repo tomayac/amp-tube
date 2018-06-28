@@ -6,6 +6,10 @@
     <meta name="description" content="AMP Tube—A simple YouTube search engine and viewer app, implemented in AMP">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#808080">
+    <link rel="preconnect" href="https://cdn.ampproject.org/">
+    <link rel="preconnect" href="https://www.youtube.com/">
+    <link rel="preconnect" href="https://cors-anywhere.herokuapp.com/">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-list-0.1.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-mustache-0.1.js">
@@ -14,6 +18,8 @@
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-bind-0.1.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-timeago-0.1.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
+    <link rel="preload" as="image" href="./amp-tube.webp">
+    <link rel="preload" as="image" href="./placeholder.svg">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async src="https://cdn.ampproject.org/v0/amp-list-0.1.js" custom-element="amp-list"></script>
     <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
@@ -128,8 +134,8 @@
       </script>
     </amp-state>
     <header>
-      <amp-img class="logo" width="60" height="60" src="./amp-tube.webp">
-        <amp-img class="logo" width="60" height="60"  fallback src="./amp-tube.png"></amp-img>
+      <amp-img alt="" class="logo" width="60" height="60" src="./amp-tube.webp">
+        <amp-img alt="" class="logo" width="60" height="60" src="./amp-tube.png" fallback></amp-img>
       </amp-img>
       <h1>
         AMP Tube
@@ -151,8 +157,9 @@
         action-xhr="https://ampbyexample.com/json/examples.json"
       >
         <input
-          id="input"
+          name="search"
           type="search"
+          aria-label="Start typing to search"
           required
           placeholder="Start typing to search"
           autocomplete="off"
@@ -209,13 +216,14 @@
               data-param-playsinline=1
               data-param-rel=0
               data-param-showinfo=0
-              width="358"
-              height="204"
+              width="160"
+              height="90"
               layout="responsive"
             >
             {{/id.videoId}}
               <amp-img
                 src="placeholder.svg"
+                alt=""
                 placeholder
                 width="60"
                 height="60"
