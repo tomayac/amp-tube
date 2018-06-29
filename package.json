@@ -4,7 +4,7 @@
   "description": "A simple YouTube search engine and viewer app, implemented in AMP",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf docs && mkdir -p docs && node build/build.js > docs/manifest.webmanifest && imagemin src/*.{webp,png,svg} --out-dir=docs && html-minifier --collapse-boolean-attributes --collapse-inline-tag-whitespace --collapse-whitespace --minify-css 1 -o docs/index.html src/index.html"
+    "build": "rm -rf docs && mkdir -p docs && node build/build.js > docs/manifest.webmanifest && imagemin src/*.{webp,png,svg} --out-dir=docs && html-minifier --collapse-boolean-attributes --collapse-inline-tag-whitespace --collapse-whitespace --minify-css --custom-attr-collapse /on/ --remove-attribute-quotes --process-scripts application/json --sort-attributes --sort-class-name --minify-urls -o docs/index.html src/index.html"
   },
   "repository": {
     "type": "git",
