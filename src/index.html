@@ -9,7 +9,6 @@
     <meta name="theme-color" content="#808080">
     <link rel="preconnect" href="https://cdn.ampproject.org/">
     <link rel="preconnect" href="https://www.youtube.com/">
-    <link rel="preconnect" href="https://cors-anywhere.herokuapp.com/">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-list-0.1.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-mustache-0.1.js">
@@ -184,8 +183,8 @@
         layout="fixed-height"
         reset-on-refresh
         items="items"
-        src="https://cors-anywhere.herokuapp.com/https://www.googleapis.com/youtube/v3/videos/?regionCode=US&chart=mostPopular&part=snippet%2Cstatistics&key=AIzaSyD2g6U5OzaLLvzEBBacZBhfaBIKeoZnKFM"
-        [src]="'https://cors-anywhere.herokuapp.com/https://www.googleapis.com/youtube/v3/search?maxResults=10&part=snippet&type=video&key=AIzaSyD2g6U5OzaLLvzEBBacZBhfaBIKeoZnKFM&q=' + youtube.query"
+        src="https://www.googleapis.com/youtube/v3/videos/?regionCode=US&chart=mostPopular&part=snippet%2Cstatistics&key=AIzaSyD2g6U5OzaLLvzEBBacZBhfaBIKeoZnKFM"
+        [src]="'https://www.googleapis.com/youtube/v3/search?maxResults=10&part=snippet&type=video&key=AIzaSyD2g6U5OzaLLvzEBBacZBhfaBIKeoZnKFM&q=' + youtube.query"
       >
         <template type="amp-mustache">
           <div class="container">

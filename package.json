@@ -1,6 +1,6 @@
 {
   "name": "amp-tube",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple YouTube search engine and viewer app, implemented in AMP",
   "main": "index.js",
   "scripts": {
