@@ -1,6 +1,6 @@
 {
   "name": "amp-tube",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple YouTube search engine and viewer app, implemented in AMP",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tomayac/amp-tube#readme",
   "devDependencies": {
-    "html-minifier": "^3.5.17",
+    "html-minifier": "^3.5.20",
     "imagemin-cli": "^3.0.0"
   }
 }
