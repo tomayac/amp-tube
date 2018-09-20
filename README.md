@@ -1,8 +1,8 @@
 # ⚡️ AMP Tube
 
-## 🗒 Description
-
-AMP Tube—A simple YouTube search engine and viewer app, implemented in AMP.
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+This project has moved to https://github.com/ampproject/samples/tree/master/amp-tube.
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
 ## 😲 Demo
 
@@ -10,7 +10,7 @@ See the app in action at https://tomayac.github.io/amp-tube/.
 
 ## 💼 License
 
-Copyright 2018 Thomas Steiner. All rights reserved.
+Copyright 2018 by the [AMP Project](https://www.ampproject.org/). All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
