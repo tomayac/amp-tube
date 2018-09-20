@@ -2,7 +2,7 @@
 
 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
-⚠️ This project has moved to https://github.com/ampproject/samples/tree/master/amp-tube. ⚠️
+⚠️ This project has moved to [https://github.com/ampproject/samples/tree/master/amp-tube](https://github.com/ampproject/samples/tree/master/amp-tube). ⚠️
 
 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
